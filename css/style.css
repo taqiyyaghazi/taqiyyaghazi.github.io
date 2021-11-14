@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Color */
+:root {
+  --primary: #141518;
+  --secondary: #27272d;
+  --tersier: #f9f9f9;
+}
+
+body {
+  color: var(--tersier);
+}
+
+/* Navbar */
+.bg-nav-scroll {
+  background-color: var(--secondary);
+}
+
+nav > a:hover {
+  color: var(--secondary);
+}
+
+/* Jumbotron */
+.banner-image {
+  background-color: var(--primary);
+  background-size: cover;
+}
+
+.neumorphism {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  background: #141518;
+  box-shadow: 9px 9px 18px #09090b, -9px -9px 18px #1f2125;
+}
+
+#img-profil {
+  width: 300px;
+}
+
+.btn {
+  min-width: 150px;
+  padding: 15px 10px;
+  margin: 20px;
+  background: #141518;
+  border: none;
+  border-radius: 25px;
+  color: var(--tersier);
+  box-shadow: 9px 9px 18px #09090b, -9px -9px 18px #1f2125;
+}
+
+.btn:hover {
+  color: var(--tersier);
+  opacity: 0.5;
+  box-shadow: inset 9px 9px 18px #09090b, inset -9px -9px 18px #1f2125;
+}
+
+@media screen and (max-width: 600px) {
+  .neumorphism {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: #141518;
+    box-shadow: 9px 9px 18px #09090b, -9px -9px 18px #1f2125;
+  }
+
+  #img-profil {
+    width: 200px;
+  }
+}
