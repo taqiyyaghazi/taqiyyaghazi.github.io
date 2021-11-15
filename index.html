@@ -12,7 +12,7 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
       <div class="container">
-        <a href="#" class="navbar-brand">Taqiyya Ghazi</a>
+        <a href="#" class="navbar-brand fs-2">TaqiyyaGhazi</a>
         <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,7 +23,7 @@
               <a href="#" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link text-white">About</a>
+              <a href="#about" class="nav-link text-white">About</a>
             </li>
             <li class="nav-item">
               <a href="#skills" class="nav-link text-white">Skills</a>
@@ -41,53 +41,45 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+    <section id="home" class="w-100 vh-100 d-flex justify-content-center align-items-center">
       <div class="container">
         <div class="neumorphism mx-auto"><img id="img-profil" src="img/profil.png" alt="" /></div>
         <br />
         <div class="content text-center">
           <h1 class="fw-bold">HI, I'M GHAZI</h1>
-          <h2 class="fw-light">
+          <h3 class="fw-light">
             I am an undergraduate student <br />
             in the Department of Mathematics.
-          </h2>
-          <h4 class="fw-lighter">Let's get to know me more!</h4>
-          <button type="button" class="btn">Get Started</button>
+          </h3>
+          <h5 class="fw-lighter">Let's get to know me more!</h5>
+          <a href="#about"><button type="button" class="btn">Get Started</button></a>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Akhir Jumbotron -->
 
-    <!-- Main Content Area -->
-    <div id="skills" class="container my-4 d-grid gap-5">
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
+    <!-- Awal About -->
+    <section id="about" class="w-100 vh-100 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row justify-content-center d-flex">
+          <div class="col-lg-6 col-md-12 justify-content-start d-flex">
+            <div class="text-capitalize text-about">
+              <h1 class="fw-bold">About <span class="opacity-75">Me</span></h1>
+              <p>
+                I am a student with an interest in data, machine learning, and artificial intelligence. To help me in collaborating with others I have some basic skills like web development, video editing, photography, etc. I have a total
+                personality, creative, and innovative.
+              </p>
+              <a href="https://www.linkedin.com/in/taqiyya-ghazi/" target="_blank"><button type="button" class="btn">More About Me</button></a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 justify-content-center d-flex">
+            <div class="about-img">
+              <img src="img/about.JPG" class="img-fluid rounded" alt="about me" width="640" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-      <div class="p-5 border">
-        <p>Lorem ipsum dolor sit</p>
-      </div>
-    </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <script src="js/index.js"></script>

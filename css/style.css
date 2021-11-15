@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +15,8 @@
 
 body {
   color: var(--tersier);
+  background: var(--primary);
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Navbar */
@@ -24,11 +28,10 @@ nav > a:hover {
   color: var(--secondary);
 }
 
-/* Jumbotron */
-.banner-image {
-  background-color: var(--primary);
-  background-size: cover;
+.navbar-brand {
+  font-family: "Bebas Neue", cursive;
 }
+/* Jumbotron */
 
 .neumorphism {
   width: 300px;
@@ -55,11 +58,34 @@ nav > a:hover {
 
 .btn:hover {
   color: var(--tersier);
-  opacity: 0.5;
+  opacity: 0.2;
   box-shadow: inset 9px 9px 18px #09090b, inset -9px -9px 18px #1f2125;
 }
 
+/* About */
+.text-about h1:after {
+  content: " ";
+  display: block;
+  border-bottom: 7px solid var(--secondary);
+  width: 10%;
+  padding-bottom: 2px;
+  margin-bottom: -9px;
+}
+
+.text-about h1 {
+  padding-bottom: 20px;
+}
+
+.text-about p {
+  padding-right: 50px;
+}
+
+.about-img {
+  filter: grayscale(100%);
+}
+
 @media screen and (max-width: 600px) {
+  /* Navbar */
   .neumorphism {
     width: 200px;
     height: 200px;
@@ -68,6 +94,7 @@ nav > a:hover {
     box-shadow: 9px 9px 18px #09090b, -9px -9px 18px #1f2125;
   }
 
+  /* Home */
   #img-profil {
     width: 200px;
   }
