@@ -68,7 +68,7 @@ nav > a:hover {
   display: block;
   border-bottom: 7px solid var(--secondary);
   width: 10%;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
   margin-bottom: -9px;
 }
 
@@ -84,6 +84,19 @@ nav > a:hover {
   filter: grayscale(100%);
 }
 
+/* Skills */
+.card {
+  background-color: var(--primary);
+}
+
+.badge {
+  background-color: var(--secondary);
+}
+
+.icon {
+  max-width: 60px;
+}
+
 @media screen and (max-width: 600px) {
   /* Navbar */
   .neumorphism {
@@ -97,5 +110,15 @@ nav > a:hover {
   /* Home */
   #img-profil {
     width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    transition: 0.9s;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: scale(1.06);
   }
 }
