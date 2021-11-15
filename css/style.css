@@ -19,6 +19,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Navbar */
 .bg-nav-scroll {
   background-color: var(--secondary);
@@ -130,6 +134,29 @@ nav > a:hover {
 
 #find-me {
   background: var(--secondary);
+}
+
+.outer {
+  text-align: center;
+}
+
+.social {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.social a {
+  color: var(--tersier);
+  font-size: 50px;
+}
+
+.social a i {
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+.social a i:hover {
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 600px) {
