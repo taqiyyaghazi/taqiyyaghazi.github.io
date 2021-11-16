@@ -104,6 +104,12 @@ nav > a:hover {
   max-width: 60px;
 }
 
+.modal li {
+  background: var(--primary);
+  color: var(--tersier);
+  border-bottom: 1px solid var(--tersier);
+}
+
 /* Projects */
 #projects {
   height: 1000px;
@@ -168,19 +174,9 @@ nav > a:hover {
 }
 
 /* Modal */
-.modal-transparent {
-  background: var(--tersier);
-  opacity: 0.8;
-}
 
 .modal-content {
   background: var(--primary);
-}
-
-.btn-closed {
-  font-size: 25px;
-  color: var(--tersier);
-  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
