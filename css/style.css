@@ -88,6 +88,10 @@ nav > a:hover {
 }
 
 /* Skills */
+#skills {
+  height: 1000px;
+}
+
 .card {
   background-color: var(--primary);
 }
@@ -101,6 +105,10 @@ nav > a:hover {
 }
 
 /* Projects */
+#projects {
+  height: 1000px;
+}
+
 .arrow {
   padding: 10px 15px;
 }
@@ -159,6 +167,22 @@ nav > a:hover {
   transform: scale(1.5);
 }
 
+/* Modal */
+.modal-transparent {
+  background: var(--tersier);
+  opacity: 0.8;
+}
+
+.modal-content {
+  background: var(--primary);
+}
+
+.btn-closed {
+  font-size: 25px;
+  color: var(--tersier);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   /* Navbar */
   .neumorphism {
@@ -183,7 +207,16 @@ nav > a:hover {
     margin: auto;
   }
 
+  /* Skills */
+  #skills {
+    height: 1000px;
+  }
+
   /* Projects */
+  #projects {
+    height: 1800px;
+  }
+
   .dont-view {
     visibility: hidden;
   }
